@@ -28,25 +28,25 @@
 .locations, .amenities {
     height: 100% auto;
     width: 25% auto;
+    float: left;
 }
 .locations {
-    position: absolute;
-    left: 380px;
-    border-right: #DDDDDD 1px;
-    
+    border-right: #DDDDDD solid 1px;
 }
-.locations, .amenities h3 {
+.locations h3, .amenities h3 {
     font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 
+    30px;
 }
-.locations h4 {
+.locations h4, .amenities h4 {
     font-weight: 400;
     font-size: 14px;
-}
-.amenities h4 {
-    font-weight: 400;
-    font-size: 14px;
-}
-.amenities {
-    position: absolute;
-    left: 600px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 30px;
 }
